@@ -1,0 +1,129 @@
+/* 
+    Document   : main
+    Created on : 2012-6-29, 19:15:16
+    Author     : Seishin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body {
+    background-color: #FFFFFF;
+    margin: 50px 0px; 
+    padding: 0px;
+}
+
+.mainContent {
+    background-color: #f1f1f1;
+    margin: 0px auto;
+    width: 70%;
+    height: auto;
+}
+
+.menuPanel {
+    width: 100%;
+    height: 40px;
+    background-color: #a5cbff;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.menuItems {
+    padding: 8px;
+    font-weight: bold;
+    float: left;
+}
+
+.searchBox {
+    width: 400px;
+    float: left;
+    margin-top: 8px;
+    margin-left: 120px;
+}
+
+.loginBox {
+    float: right;
+    position: relative;
+    top: 7px;
+    width: 350px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.logoutBox {
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 15px;
+    width: auto;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.pagingBar {
+    text-align: center;
+    width: auto;
+}
+
+.singleBook {
+    margin: 10px 10px;
+    padding: 5px 5px;
+    border: 1px solid black;
+    width: auto;
+    height: 200px;
+    text-align: center;
+}
+
+.singleBookImage {
+    width: 160px;
+    height: 160 px;
+    margin: 5px 5px;
+    border: 1px solid black;
+    float: left;
+}
+
+.singleBookTitle {
+    width: auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.singleBookDescription {
+    width: auto;
+    height: auto;
+    text-align: left;
+}
+
+.singleBookPrice {
+    float: right;
+    font-weight: bold;
+}
+
+.singleBookBuy {
+    float: right;
+}
+
+.singlePurchase {
+    margin: 10px 10px;
+    padding: 5px 5px;
+    border: 1px solid black;
+    width: auto;
+}
+
+.singlePurchaseDelete {
+    float: right;
+    position: relative;
+    bottom: 20px;
+}
+
+.addABookForm {
+    width: 500px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
